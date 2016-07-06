@@ -10,4 +10,7 @@ echo "Starting with UID : $USER_ID"
 adduser -s /bin/shell -u $USER_ID -h /home/user -D -H user
 export HOME=/home/user
 
+mkdir -p /home/user
+chown -R user: /home/user
+
 exec /usr/bin/gosu user "$@"
