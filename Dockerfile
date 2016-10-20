@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6.2.1
+FROM mhart/alpine-node:latest
 
 # 036A9C25BF357DD4 - Tianon Gravi <tianon@tianon.xyz>
 #   http://pgp.mit.edu/pks/lookup?op=vindex&search=0x036A9C25BF357DD4
